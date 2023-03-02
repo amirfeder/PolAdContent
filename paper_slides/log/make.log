@@ -1,0 +1,42 @@
+--------------------------------------------------------------------------------
+Makelog started: 2021-03-24 18:08:49
+Working directory: C:\Users\Lena\Documents\GitHub\TwitterDiversity\paper_slides
+--------------------------------------------------------------------------------
+Input copies successfully created!
+External copies successfully created!
+Source logs successfully written!
+Executing command: `LyX -e pdf2 "C:\Users\Lena\Documents\GitHub\TwitterDiversity\paper_slides\code\TwitterDiversity_Slides.lyx"`
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit)
+
+entering extended mode
+
+(TwitterDiversity_Slides.tex
+
+LaTeX2e <2016/03/31> patch level 3
+
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+
+
+
+
+
+SyncTeX written on TwitterDiversity_Slides.synctex.This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit)
+
+entering extended mode
+
+(TwitterDiversity_Slides.tex
+
+LaTeX2e <2016/03/31> patch level 3
+
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+
+
+
+
+
+SyncTeX written on TwitterDiversity_Slides.synctex.
+Output logs successfully written!
+--------------------------------------------------------------------------------
+Makelog ended: 2021-03-24 18:08:55
+Working directory: C:\Users\Lena\Documents\GitHub\TwitterDiversity\paper_slides
+--------------------------------------------------------------------------------

@@ -1,0 +1,36 @@
+###################
+### ENVIRONMENT ###
+###################
+import git
+import importlib
+import os
+import sys
+
+### SET DEFAULT PATHS
+ROOT = git.Repo('.', search_parent_directories = True).working_tree_dir 
+
+PATHS = {
+    'root'        : ROOT,
+    'lib'         : os.path.join(ROOT, 'lib'),
+    'config_user' : os.path.join(ROOT, 'config_user.yaml')
+}
+
+### LOAD GSLAB MAKE
+spec = importlib.util.spec_from_file_location('gslab_make', 
+											  os.path.join(PATHS['lib'], 'gslab_make', '__init__.py'))
+gs = importlib.util.module_from_spec(spec)
+sys.modules['gslab_make'] = gs
+spec.loader.exec_module(gs)
+
+### LOAD CONFIG USER 
+gs.update_executables(PATHS)
+gs.check_conda_status(root = ROOT)
+
+###########
+### RUN ###
+###########
+
+### RUN SCRIPTS
+gs.run_module(root = ROOT, module = 'data')
+gs.run_module(root = ROOT, module = 'analysis')
+#gs.run_module(root = ROOT, module = 'paper_slides')

@@ -1,0 +1,5 @@
+destination | source
+input\lib | C:\Users\lenas\Documents\GitHub\PolAdContent\lib
+input\tv.csv | C:\Users\lenas\Documents\GitHub\PolAdContent\raw\tv.csv
+input\chips.csv | C:\Users\lenas\Documents\GitHub\PolAdContent\raw\chips.csv
+external\dropbox | C:\Users\lenas\Dropbox\[AshXSongXFeder]PolAdContent

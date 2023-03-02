@@ -1,0 +1,20 @@
+--------------------------------------------------------------------------------
+Makelog started: 2023-03-02 15:29:59
+Working directory: C:\Users\lenas\Documents\GitHub\PolAdContent\data
+--------------------------------------------------------------------------------
+Input links successfully created!
+External links successfully created!
+Source logs successfully written!
+Executing command: `python  "C:\Users\lenas\Documents\GitHub\PolAdContent\data\code\merge_data.py" `
+Executing command: `python  "C:\Users\lenas\Documents\GitHub\PolAdContent\data\code\clean_data.py" `
+C:\Users\lenas\Documents\GitHub\PolAdContent\data\code\clean_data.py:17: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['chips_sold'][df['chips_sold'] == -999999] = np.NaN
+
+Output logs successfully written!
+--------------------------------------------------------------------------------
+Makelog ended: 2023-03-02 15:30:03
+Working directory: C:\Users\lenas\Documents\GitHub\PolAdContent\data
+--------------------------------------------------------------------------------
